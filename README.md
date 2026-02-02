@@ -65,3 +65,8 @@ O sistema simula uma estação de radar/sonar. O código alterna entre dois modo
 * **Sensor:** Ultrassónico HC-SR04
 * **Input:** Joystick Analógico
 * **Output:** LEDs de Estado (Vermelho e Azul)
+
+### 💻 Conceitos Técnicos Chave
+* **Código Não-bloqueante:** Implementação de temporizadores `millis()` em vez de `delay()` para permitir multitarefa (piscar LEDs enquanto o servo se move).
+* **Lógica de Máquina de Estados:** Transição fluida entre os estados "Automático" e "Manual".
+* **Input Pullup:** Utilização dos resistores internos do ESP32 para garantir leituras digitais limpas e estáveis.
