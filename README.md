@@ -10,10 +10,10 @@
 
 **Ultrasonic sonar system with dual-mode control (Auto Sweep + Manual Joystick) powered by ESP32.**
 
-This project was developed as a self-learning initiative during my 1st year of Electrical and Computer Engineering at **Instituto Superior Técnico (IST)**, Lisbon.
+This project was developed as a self-learning initiative during my 1st semester of Electrical and Computer Engineering at **Instituto Superior Técnico (IST)**, Lisbon.
 
 ### ⚙️ How it Works
-The system mimics a radar/sonar station using an ultrasonic sensor mounted on a servo motor. It operates in two distinct modes:
+The system mimics a sonar station using an ultrasonic sensor mounted on a servo motor. It operates in two distinct modes:
 
 1.  **Automatic Mode (Scanner):**
     * The servo sweeps continuously from 0º to 180º.
@@ -42,7 +42,7 @@ The system mimics a radar/sonar station using an ultrasonic sensor mounted on a 
 <a name="versão-portuguesa"></a>
 ## 🇵🇹 Versão Portuguesa
 
-**Sistema de radar ultrassónico com controlo híbrido (Varrimento Automático + Joystick) baseado em ESP32.**
+**Sistema de sonar ultrassónico com controlo híbrido (Varrimento Automático + Joystick) baseado em ESP32.**
 
 Este projeto foi desenvolvido no âmbito de aprendizagem autónoma durante o meu 1.º ano de Engenharia Eletrotécnica e de Computadores no **Instituto Superior Técnico (IST)**.
 
